@@ -11,8 +11,17 @@ body {
     background-color: #000000!important;
 }
 
+.navlogo {
+    margin-bottom: 0.5rem;
+}
+
+.nav-item {
+    margin-left: 1.8rem;
+}
+
 .dropdown-menu {
     background-color:rgba(207, 6, 123, 0.25);
+    top: 107%;
 }
 
 .dropdown-item {
@@ -32,6 +41,6 @@ body {
     .nav-link {
         padding-bottom: 0px;
         margin-bottom: 0px;
-        margin-top: 35px;
+        margin-top: 28px;
     }
 }
