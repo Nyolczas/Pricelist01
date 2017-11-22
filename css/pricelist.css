@@ -101,22 +101,6 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     color: rgb(0, 0, 0);
 }
 
-/* .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-
-
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-  } */
-
 .fa:hover {
     /* box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.7); */
     background: rgba(255, 255, 255, 0.75);
