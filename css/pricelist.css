@@ -7,6 +7,20 @@
 .nav-link {
     padding-bottom: 0px;
     margin-bottom: 0px;
-    display: table;
-    bottom: 0px;
+}
+
+
+@media screen and (min-width:768px) {
+}
+
+@media screen and (min-width:992px) {
+    .nav-link {
+        margin-top: 13px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .nav-link {
+        margin-top: 35px;
+    }
 }
