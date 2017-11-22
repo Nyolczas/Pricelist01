@@ -1,14 +1,36 @@
 body {
     background-color:rgb(38, 0, 48);
+    height: 100%;
+    box-sizing: border-box;
 }
+
+main {
+    min-height: 100%;
+    height: auto;
+    background-color: #CF067B;
+    /* Negative indent footer by its height */
+    margin: 0 auto -150px;
+    /* Pad bottom by footer height */
+    padding: 0 0 150px;
+  }
 
 .jumbotron {
     background-color: #CF067B;
 }
-/* ================ NAVBAR ================ */
+
+.kiemel {
+    border: 1px solid red;
+}
+/* ================================ NAVBAR ================================ */
 
 .bg-dark {
     background-color: #000000!important;
+}
+
+/* aktív hamburgermenü - kontúr eltüntetés */
+button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
+    border: 1px solid rgba(207, 6, 123, 0.25);
+    outline: none;
 }
 
 .navlogo {
@@ -22,6 +44,7 @@ body {
 .dropdown-menu {
     background-color:rgba(207, 6, 123, 0.25);
     top: 107%;
+    /* box-shadow: 0px 0px 35px rgba(0, 153, 224, 0.4); */
 }
 
 .dropdown-item {
@@ -41,6 +64,51 @@ body {
     .nav-link {
         padding-bottom: 0px;
         margin-bottom: 0px;
-        margin-top: 28px;
+        margin-top: 35px;
+    }
+
+    .navlogo {
+        margin-bottom: 0;
     }
 }
+/* ================================ /NAVBAR ================================ */
+
+/* ================================ Footer ================================ */
+
+.footer {
+    height: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 8px;
+}
+
+.footerline {
+    margin: 12px;
+}
+
+/* Facebook */
+.fa {
+    padding: 8px;
+    font-size: 15px;
+    width: 32px;
+    text-align: center;
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+
+}
+
+.fa:hover,{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.fa:hover {
+    background: rgba(59, 90, 152, 0.7);
+}
+
+.footerline p {
+    font-size: 0.82rem;
+    color: rgb(255, 255, 255);
+}
+/* ================================ /Footer ================================ */
