@@ -17,7 +17,8 @@ main {
   }
 
 .jumbotron {
-    background-color: #CF067B;
+    background-color: rgba(207, 6, 123, 0);
+    margin-top: 83px;
 }
 
 .kiemel {
