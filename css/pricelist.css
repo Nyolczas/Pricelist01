@@ -26,10 +26,8 @@ main {
 }
 
 .kiemel {
-    width: 100px;
-    height: 100px;
     border: 3px solid red;
-    background-image: url("img/bggrad.jpg");
+    background-image: url("../img/bggrad.jpg");
 }
 /* ================================ NAVBAR ================================ */
 
@@ -86,7 +84,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 /* ================================ /DANCE SHOWS ================================ */
 
 .bg-grad {
-    background-image: url("img/bggrad.jpg"); 
+    background-image: url("../img/bggrad.jpg"); 
 }
 
 /* ================================ /DANCE SHOWS ================================ */
