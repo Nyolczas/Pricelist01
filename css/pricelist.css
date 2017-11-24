@@ -96,6 +96,10 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     width: 100%;
 }
 
+.jumbotron-shows {
+    margin-bottom: -1rem;
+}
+
 
 /* ================================ /DANCE SHOWS ================================ */
 
