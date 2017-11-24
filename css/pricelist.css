@@ -85,6 +85,15 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 
 .bg-grad {
     background-image: url("../img/bggrad.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding: 0; */
+}
+
+.wrap100 {
+    white-space: inherit;
+    max-width: 100%;
 }
 
 /* ================================ /DANCE SHOWS ================================ */
