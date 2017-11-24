@@ -91,10 +91,10 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     /* padding: 0; */
 }
 
-.wrap100 {
+.btn {
     white-space: inherit;
-    max-width: 100%;
 }
+
 
 /* ================================ /DANCE SHOWS ================================ */
 
