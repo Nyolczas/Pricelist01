@@ -96,6 +96,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 
 .btn {
     font-weight: 600;
+    text-align: left;
     white-space: inherit;
     width: 100%;
     background : -moz-linear-gradient(0% 50% 0deg,rgba(137, 4, 83, 1) 0%,rgba(94, 24, 91, 1) 31.92%,rgba(92, 25, 91, 1) 33%,rgba(17, 61, 105, 1) 68.15%,rgba(15, 63, 106, 1) 70.3%,rgba(0, 91, 122, 1) 100%);
