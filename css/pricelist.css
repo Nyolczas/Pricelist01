@@ -154,6 +154,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     color: white;
     margin-top: -1rem;
     margin-bottom: 1rem;
+    padding: 0;
     box-shadow: 0 0 1rem 0.1rem rgba(0,123,255,.5);
     border: none;
     border-radius: 0 0 0.5rem 0.5rem;
@@ -168,11 +169,16 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
 }
 
 
+.card-txt {
+    padding: 1.25rem;
+}
+
 .btnImage {
     width: 50%;
     float: left;
     margin: -0.4rem 0.6rem -0.4rem -0.2rem;
 }
+
 
 /* ================================ /DANCE SHOWS ================================ */
 
