@@ -154,6 +154,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     color: white;
     margin-top: -1rem;
     margin-bottom: 1rem;
+    box-shadow: 0 0 1rem 0.1rem rgba(0,123,255,.5);
     border: none;
     border-radius: 0 0 0.5rem 0.5rem;
     background : -moz-linear-gradient(0% 50% 0deg,rgba(94, 3, 57, 1) 0%,rgba(73, 19, 70, 1) 31.92%,rgba(71, 19, 70, 1) 33%,rgba(14, 45, 78, 1) 68.15%,rgba(12, 47, 78, 1) 70.3%,rgba(0, 65, 87, 1) 100%);
@@ -164,6 +165,15 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#5E0339', endColorstr='#004157' ,GradientType=0)";
     background : linear-gradient(90deg, rgba(94, 3, 57, 1) 0%, rgba(73, 19, 70, 1) 31.92%, rgba(71, 19, 70, 1) 33%, rgba(14, 45, 78, 1) 68.15%, rgba(12, 47, 78, 1) 70.3%, rgba(0, 65, 87, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5E0339',endColorstr='#004157' , GradientType=1);
+}
+
+
+.btnImage {
+    width: 50%;
+    float: left;
+    margin-top: -0.4rem;
+    margin-right: 0.6rem;
+    margin-bottom: -0.4rem;
 }
 
 /* ================================ /DANCE SHOWS ================================ */
