@@ -208,6 +208,10 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     0px 00px 10px rgba(0, 170, 235, 1);
 }
 
+.doubleprice {
+    width: 50%; 
+    float: left;
+}
 
 /* ================================ /DANCE SHOWS ================================ */
 
