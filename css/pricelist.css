@@ -146,7 +146,7 @@ button:focus, .navbar-toggler:focus, .navbar-toggler-icon:focus, .btn:focus {
     margin-bottom: 1.5rem;
 }
 
-.row-shows {
+.clearfix {
     margin-bottom: 1rem;
 }
 
